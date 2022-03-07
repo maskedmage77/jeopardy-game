@@ -1,0 +1,16 @@
+.card {
+  font-family: "Swiss 911";
+  background-color: #0006b9;
+  height: calc(100% - calc(var(--boardWidth) / 40));
+  color: #ffa600;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(var(--boardWidth) * 0.04375);
+  padding: calc(var(--boardWidth) / 80);
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+  transition: 1s;
+  cursor: pointer;
+  user-select: none;
+}

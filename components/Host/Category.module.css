@@ -1,0 +1,12 @@
+.category {
+  font-family: "Swiss 911";
+  background-color: #0006b9;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(var(--boardWidth) / 40);
+  padding: calc(var(--boardWidth) / 80);
+  text-align: center;
+  /* cursor: pointer; */
+  user-select: none;
+}
